@@ -1,0 +1,17 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: tools3.png (512 x 512)
+# $TexturePacker:SmartUpdate:888b3887c11a4b404632050832c994cb:0ee8a799096c151f762504cf3ef4130a:59af452915eb205af85e3e61bc614bf1$
+#
+
+Bucket;2;440;50;70;0.5;0.5
+Ability3;54;446;64;64;0.5;0.5
+Qizi;120;366;100;144;0.5;0.5
+Block;222;490;100;20;0.5;0.5
+aiye;324;198;147;312;0.5;0.5
+boat;2;106;157;90;0.5;0.5
+Switch;161;49;221;147;0.5;0.5

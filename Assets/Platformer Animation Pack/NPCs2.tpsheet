@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: NPCs2.png (64 x 128)
+# $TexturePacker:SmartUpdate:45a3330b6cb0bb1855828019f9208da2:5a0cd02900eb5d944fc17a5cc4098c56:870021fad3c6c7ebad7c560582cb53a1$
+#
+
+BridgeMan;2;100;11;26;0.5;0.5
+BullHead;15;101;24;25;0.5;0.5
+ChaLiuRen;41;100;16;26;0.5;0.5
+Father;2;71;11;27;0.5;0.5
+Gho1;15;76;14;22;0.5;0.5
+Gol2;31;74;11;24;0.5;0.5
+HorseFace;2;43;22;26;0.5;0.5
+LittleGirl;26;48;12;21;0.5;0.5

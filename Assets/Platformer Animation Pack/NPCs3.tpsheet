@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: NPCs3.png (64 x 128)
+# $TexturePacker:SmartUpdate:df9b61659fe58425e9bde3df24ead0bd:e75f69eb923620810ee7f78c9fbcf35e:a73d95a174d49c775d7fda3289a7aea4$
+#
+
+Cunmin1;2;100;11;26;0.5;0.5
+Cunmin2;15;100;12;26;0.5;0.5
+Cunmin3;29;100;12;26;0.5;0.5
+Cunmin4;43;100;12;26;0.5;0.5
+Fisher;2;69;17;29;0.5;0.5
+KuangGong;21;72;19;26;0.5;0.5
+WineMaker;42;73;14;25;0.5;0.5
+quyuan;2;38;20;29;0.5;0.5

@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Tools2.png (512 x 512)
+# $TexturePacker:SmartUpdate:996df884223cee73e9f2a895c9050fee:a5d7e14f101fc225817c6dc253c92b75:cfc24ec9c0c951bf76354d455835938b$
+#
+
+Bridge;2;477;500;33;0.5;0.5
+BridgeSwitch;2;359;168;116;0.5;0.5
+GroundSign 1;172;335;128;140;0.5;0.5
+GroundSign;302;275;200;200;0.5;0.5
+RoadSign;302;275;200;200;0.5;0.5
+Tomb1;2;191;82;82;0.5;0.5
+banshou;86;161;114;112;0.5;0.5
+light;202;233;38;40;0.5;0.5
+wood;242;243;75;30;0.5;0.5
+zanzi;2;65;200;94;0.5;0.5

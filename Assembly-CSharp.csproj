@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F90695DA-F050-A0F6-235C-6119617118BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/software/unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/software/unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\2DDL\2DLight\AssetUtility\AssetUtility.cs" />
+     <Compile Include="Assets\2DDL\2DLight\CheckUpdate\CheckUpdateAsset.cs" />
+     <Compile Include="Assets\2DDL\2DLight\CheckUpdate\CheckUpdateBuilder.cs" />
+     <Compile Include="Assets\2DDL\2DLight\CheckUpdate\CheckUpdateWindow.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Core\CasterCollider.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Core\DynamicLight.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\DynamicLightSetting.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\SettingsManager.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\SettingsWindow.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\TagLayerClass.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\usage.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\ECamera.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyButton.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyJoystick.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouch.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouchInput.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Finger.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Gesture.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\MonoSingleton.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\MovingJoystick.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\VirtualScreen.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraBlack.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraMoveWithPlayer.cs" />
+     <Compile Include="Assets\Scripts\Camera\DeathCameraFade.cs" />
+     <Compile Include="Assets\Scripts\Camera\showTest.cs" />
+     <Compile Include="Assets\Scripts\Data.cs" />
+     <Compile Include="Assets\Scripts\DataPersistance.cs" />
+     <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Light\FlashLight.cs" />
+     <Compile Include="Assets\Scripts\Light\LightRadius.cs" />
+     <Compile Include="Assets\Scripts\Light\MonitoredByMonster.cs" />
+     <Compile Include="Assets\Scripts\Light\MonsterMonitor.cs" />
+     <Compile Include="Assets\Scripts\Manager2.cs" />
+     <Compile Include="Assets\Scripts\Player\DeathControl.cs" />
+     <Compile Include="Assets\Scripts\Player\JumpAgainstWall.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\Player\ResPutUp.cs" />
+     <Compile Include="Assets\Scripts\Player\Scenario.cs" />
+     <Compile Include="Assets\Scripts\Player\ShadowFollow.cs" />
+     <Compile Include="Assets\Scripts\Player\SolidTalk.cs" />
+     <Compile Include="Assets\Scripts\Player\TouchCode.cs" />
+     <Compile Include="Assets\Scripts\Player\waterPCtest.cs" />
+     <Compile Include="Assets\Scripts\Tools\ArrowAbsorbedByShield.cs" />
+     <Compile Include="Assets\Scripts\Tools\CannonShot.cs" />
+     <Compile Include="Assets\Scripts\Tools\DumplingsSeenByMonster.cs" />
+     <Compile Include="Assets\Scripts\Tools\FollowtheBoat.cs" />
+     <Compile Include="Assets\Scripts\Tools\LaunchArrows.cs" />
+     <Compile Include="Assets\Scripts\Tools\MakeZongzi.cs" />
+     <Compile Include="Assets\Scripts\Tools\Portal.cs" />
+     <Compile Include="Assets\Scripts\Tools\ScenePortal.cs" />
+     <Compile Include="Assets\Scripts\Tools\ToolFloating.cs" />
+     <Compile Include="Assets\Scripts\Tools\ZongziMatTrigger.cs" />
+     <Compile Include="Assets\Scripts\Tools\spring.cs" />
+     <Compile Include="Assets\Scripts\Volume.cs" />
+     <Compile Include="Assets\Scripts\water\Brick.cs" />
+     <Compile Include="Assets\Scripts\water\Clickspawn.cs" />
+     <Compile Include="Assets\Scripts\water\Water.cs" />
+     <Compile Include="Assets\Scripts\water\WaterDetector.cs" />
+     <None Include="Assets\2DDL\Shaders\StencilObject.shader" />
+     <None Include="Assets\2DDL\Shaders\DefaultTexturized.shader" />
+     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\EasyTouch\Readme_first.txt" />
+     <None Include="Assets\2DDL\Shaders\RadialGradientAlphaBlend.shader" />
+     <None Include="Assets\2DDL\Shaders\DepthMask.shader" />
+     <None Include="Assets\2DDL\Shaders\CGTexturizing.shader" />
+     <None Include="Assets\2DDL\Shaders\OffsetShader.shader" />
+     <None Include="Assets\Scripts\Test3.shader" />
+     <None Include="Assets\Scripts\ImageTest.shader" />
+     <None Include="Assets\2DDL\Shaders\StencilMask.shader" />
+     <None Include="Assets\2DDL\Shaders\VertexColor.shader" />
+     <None Include="Assets\2DDL\Shaders\Gradient-ZFighting.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/software/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/software/unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/software/unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/software/unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/software/unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/software/unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/software/unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

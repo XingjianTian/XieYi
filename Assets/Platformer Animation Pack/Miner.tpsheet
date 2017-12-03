@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Miner.png (64 x 64)
+# $TexturePacker:SmartUpdate:5ffd5f84038e6e25a10454a4da19b2ab:c1a52f24fab6592e60e450c7c8bd8191:5db8f48855eca78a26a6958acad1fa88$
+#
+
+Miner1;2;34;28;28;0.5;0.5
+Miner5;2;34;28;28;0.5;0.5
+Miner2;32;34;28;28;0.5;0.5
+Miner3;2;4;28;28;0.5;0.5
+Miner4;32;4;28;28;0.5;0.5

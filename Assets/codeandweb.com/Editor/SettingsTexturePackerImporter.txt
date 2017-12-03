@@ -1,0 +1,51 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Picture/bg/Chapter1/MapChapter1.tpsheet
+- Assets/Picture/bg/Chapter2/MapChapter2.tpsheet
+- Assets/Picture/bg/Chapter3/MapChapter3.tpsheet
+- Assets/Picture/tools/Chapter1/chunlian/Chunlian.tpsheet
+- Assets/Picture/tools/Chapter1/Tools.tpsheet
+- Assets/Picture/tools/Chapter2/Tools2.tpsheet
+- Assets/Picture/tools/Chapter3/Tools3.tpsheet
+- Assets/Picture/tools/Chapter3/tools3.tpsheet
+- Assets/Platformer Animation Pack/Miner.tpsheet
+- Assets/Platformer Animation Pack/NPCs.tpsheet
+- Assets/Platformer Animation Pack/NPCs2.tpsheet
+- Assets/Platformer Animation Pack/NPCs3.tpsheet
+- Assets/Platformer Animation Pack/Snakes.tpsheet
+- Assets/Platformer Animation Pack/Trees.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Picture/bg/Chapter1/MapChapter1.png
+- Assets/Picture/bg/Chapter2/MapChapter2.png
+- Assets/Picture/bg/Chapter3/MapChapter3.png
+- Assets/Picture/tools/Chapter1/chunlian/Chunlian.png
+- Assets/Picture/tools/Chapter1/Tools.png
+- Assets/Picture/tools/Chapter2/Tools2.png
+- Assets/Picture/tools/Chapter3/tools3.png
+- Assets/Picture/tools/Chapter3/tools3.png
+- Assets/Platformer Animation Pack/Miner.png
+- Assets/Platformer Animation Pack/NPCs.png
+- Assets/Platformer Animation Pack/NPCs2.png
+- Assets/Platformer Animation Pack/NPCs3.png
+- Assets/Platformer Animation Pack/Snakes.png
+- Assets/Platformer Animation Pack/Trees.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

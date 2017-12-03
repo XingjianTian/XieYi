@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/NI_GamePreScene.unity
+  isLoaded: 1
+  isActive: 1
