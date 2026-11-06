@@ -1,9 +1,9 @@
 # XieYi
 
-中文名《写意》
+**English (primary)** | [简体中文](README.zh-CN.md)
 
-My first game,in which you'll play as a cute hero,and you'll explore the 2D maps,which are designed according to Chinese Festivals and words,tring to find the door to next stage;
+**XieYi (写意)** is a 2D adventure game created by a small team over two months for the Tencent 2017 NI Game Development Competition.
 
-It is indeed a great adventure for both players and myself.It helps me realize how much work to do to develop a indie game.
+Play as a small hero and explore maps inspired by Chinese festivals and words, searching for the door to the next stage. The project combines pixel art, Chinese visual themes, and collecting elements.
 
-But I really enjoy the process.
+This was the author's first game and an exploration of the work involved in developing an independent game.
